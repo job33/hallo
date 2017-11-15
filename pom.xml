@@ -2,10 +2,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+    <modelVersion>4.3.2</modelVersion>
 
     <groupId>HBV501G</groupId>
-    <artifactId>ByrjunSpring</artifactId>
+    <artifactId>hopur12</artifactId>
     <version>0.1</version>
 
     <parent>
@@ -15,7 +15,16 @@
     </parent>
 
     <dependencies>
-
+  <dependency>
+    <groupId>javax.servlet.jsp.jstl</groupId>
+    <artifactId>javax.servlet.jsp.jstl-api</artifactId>
+    <version>1.2.1</version>
+  </dependency>
+  <dependency>
+    <groupId>taglibs</groupId>
+    <artifactId>standard</artifactId>
+    <version>1.1.2</version>
+  </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -25,7 +34,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -36,7 +44,6 @@
             <artifactId>postgresql</artifactId>
             <version>9.2-1004-jdbc4</version>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
@@ -51,7 +58,16 @@
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+        </dependency>
+          <dependency>
+    <groupId>javax.servlet.jsp</groupId>
+    <artifactId>javax.servlet.jsp-api</artifactId>
+    <version>2.3.1</version>
+    <scope>provided</scope>
+  </dependency>
     </dependencies>
 
     <build>
@@ -62,5 +78,5 @@
             </plugin>
         </plugins>
     </build>
-    <name>ByrjunSpring</name>
+    <name>hopur12</name>
 </project>

@@ -6,11 +6,11 @@
 <html lang="en">
 
 <head>
-    <title>Sınidæmi</title>
+    <title>Góğan daginn!</title>
 </head>
 <body>
 
-<h1>Sınidæmi</h1>
+<h1>Góğan daginn ${userInfo.nafn}</h1>
 
 </body>
 

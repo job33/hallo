@@ -1,4 +1,4 @@
-package is.hi.byrjun;
+package is.hi.hopur12;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
