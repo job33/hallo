@@ -74,7 +74,7 @@
 </head>
 <body>
 	<div class="navbar">
-		<a href="askUser.jsp">
+		<a href="/greeting/spyrjaNotanda">
 			<div class="navoption"
 				<p>Upphaf</p>
 			</div>
